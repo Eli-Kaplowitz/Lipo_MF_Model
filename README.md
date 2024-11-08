@@ -38,4 +38,4 @@ To run the project from the command line, use the HW5.py script. This script wil
 - --max_iter (int): Maximum number of iterations for MLPRegressor
 
 ## License
-This project is licensed under ____. See the LICENSE.txt file for more details. 
+This project is licensed under the MIT License. See the LICENSE.txt file for more details. 
