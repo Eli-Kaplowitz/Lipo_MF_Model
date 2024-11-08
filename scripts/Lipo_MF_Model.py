@@ -8,7 +8,7 @@ from rdkit.Chem import AllChem
 from rdkit.Chem import rdFingerprintGenerator
 import argparse
 
-dataset = "../Lipophilicity.csv"
+dataset = "./Lipophilicity.csv"
 env_name = os.getenv("CONDA_DEFAULT_ENV")
 print(f'Current Environment: {env_name}')
 
