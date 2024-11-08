@@ -1,11 +1,10 @@
-name: HW5
+name: Lipo_MF_Model
 channels:
   - pytorch
   - conda-forge
 dependencies:
   - python>=3.11
   - pytorch::pytorch>=2.1
-  - astartes
   - aimsim
   - argparse
   - configargparse
@@ -15,5 +14,3 @@ dependencies:
   - rdkit
   - scikit-learn
   - scipy
-  - rich
-  - descriptastorus

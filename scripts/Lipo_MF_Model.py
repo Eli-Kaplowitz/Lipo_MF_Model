@@ -1,16 +1,14 @@
 import numpy as np
 import pandas as pd
 import os
-import sys
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPRegressor
-from sklearn.metrics import mean_squared_error
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem import rdFingerprintGenerator
 import argparse
 
-dataset = "Lipophilicity.csv"
+dataset = "../Lipophilicity.csv"
 env_name = os.getenv("CONDA_DEFAULT_ENV")
 print(f'Current Environment: {env_name}')
 

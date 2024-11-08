@@ -1,10 +1,10 @@
 # Lipo_MF_Model
 
 ## Purpose
-This repository contains code and data for predicting the lipophilicity of chemical compounds using an MLP Regressor on Morgan Fingerprints. 
+This repository contains code and data for predicting the lipophilicity of chemical compounds using an MLP Regressor on Morgan Fingerprints and MACCS Keys. 
 
 ## Contents
-- `HW5.py`
+- `Lipo_MF_Model.py`
 - `Lipophilicity.csv`
 - `environment.yml`
 - `README.md`
@@ -21,11 +21,11 @@ cd lipophilicity-prediction
 2. **Create and activate a conda environment**:
 ```sh
 conda env create -f environment.yml
-conda activate HW5
+conda activate Lipo_MF_Model
 ```
 3. **Run the Python Script**:
 ```sh
-python HW5.py
+python Lipo_MF_Model.py
 ```
 
 ## Usage
